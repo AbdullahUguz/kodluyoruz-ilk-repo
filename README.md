@@ -4,7 +4,8 @@ index.html eklendi
 
 ## Proje Görseli
 
-![](https://user-images.githubusercontent.com/73312086/141159413-d76eac97-b879-4f84-85b3-c818edc958d1.JPG)
+![](https://user-images.githubusercontent.com/73312086/141166896-b2810b95-c544-4090-8baf-9636228ca0e2.JPG)
+
 
 # Installation
  Projenin clone linki
