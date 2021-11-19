@@ -1,0 +1,38 @@
+
+body {
+}
+
+.container {
+    width: 1000px;
+}
+
+.content {
+    width: 1725px;
+    height: 20px;
+    float: left;
+   
+}
+
+.google-img {
+    padding-left: 65%;
+}
+
+.center {
+    text-align: center;
+    margin-right: 2%;
+}
+
+.color-cntt {
+    background-color: #EEEEEE;
+}
+
+.card-box {
+    height:100px;
+    width: 29%;
+    padding-top:1%;
+    padding-left:3%;
+    float: left;
+    margin-top: 1%;
+    margin-right: 1%;
+    background-color: #7EE5DA;
+}
