@@ -1,8 +1,8 @@
-# Instagram-Clone
+# Linkedin-Clone
 
 ## Proje Görseli
 
-![sasasaasa](https://user-images.githubusercontent.com/73312086/147363050-fc7f95c1-8e1a-4a21-8566-854c5cdb5dcb.JPG)
+![ssssss](https://user-images.githubusercontent.com/73312086/147511486-b4b25cd2-299f-42b3-a418-a13ca7f56a78.JPG)
 
 
 
