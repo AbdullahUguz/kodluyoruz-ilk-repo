@@ -12,8 +12,8 @@ function showTime(){
     let hour = time.getHours()
     let min = time.getMinutes()
     let sec = time.getSeconds()
-    let day = time.getDay()  
-    let month = time.getMonth()
+    let day = time.getUTCDay()  
+    let month = time.getMonth()+1
     let year = time.getFullYear()
     
     days=["Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"];
@@ -25,7 +25,7 @@ function showTime(){
     month=month<10 ? "0"+month : month
     
 
-    let currentTime=`${hour}:${min}:${sec}   __   ${day}/${month}/${year}    __  ${days[day-1]} `
+    let currentTime=`${hour}:${min}:${sec}   __    ${day}/ ${month} / ${year}  __  ${days[day<10 ? day.slice(1):day]} `
 
     clock.innerHTML=currentTime
 }
