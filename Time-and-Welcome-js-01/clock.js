@@ -18,8 +18,14 @@ function showTime(){
     
     days=["Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi","Pazar"];
 
+    sec=sec<10 ? "0"+sec : sec
+    min=min<10 ? "0"+min : min
+    hour=hour<10 ? "0"+hour : hour
+    day=day<10 ? "0"+day : day
+    month=month<10 ? "0"+month : month
+    
 
-    let currentTime=`${hour}:${min}:${sec}   __   ${day}/${month}/${year}    __  ${days[day]} `
+    let currentTime=`${hour}:${min}:${sec}   __   ${day}/${month}/${year}    __  ${days[day-1]} `
 
     clock.innerHTML=currentTime
 }
