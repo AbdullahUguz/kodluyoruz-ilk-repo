@@ -1,5 +1,7 @@
 # To Do List
 
+Listede ki elemanları seçtikten sonra toplu olarak hepsini sil butonu ile silebiliyoruz.
+
 ## Proje Görseli
 
 ![sasasa](https://user-images.githubusercontent.com/73312086/153184748-6113d390-3b30-4c23-8fbb-c87da64cb970.JPG)
