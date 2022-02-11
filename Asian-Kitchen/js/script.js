@@ -90,6 +90,8 @@ const menu = [
   
   const CHINA=menu.filter(element => element.category=="China");
 
+  display(menu);
+
   document.getElementById('Korea').onclick = function(){
     display(KOREAN);
   }
@@ -103,9 +105,10 @@ const menu = [
     display(menu);
   }
 
-  function display(Country){
+
+  function display(control){
     let textList=[];
-    Country.forEach(item => {
+    control.forEach(item => {
         const text = `
         <div class="menu-items col-lg-6 col-sm-12">
                 <img src="${item.img}"
